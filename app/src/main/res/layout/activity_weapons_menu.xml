@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_weapons_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.easylabs.residentevil7guidee.WeaponsMenuActivity"
+    android:background="@drawable/coinsbackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:text="Оружие ближнего боя"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvWeapons_1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#aaa"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:text="Топор"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btAxe"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Складной нож"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btKnife1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Нож для выживания "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btKnife2"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Циркулярная пила"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btCircularSaw"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:text="Бензопила"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btChainsaw"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:text="Огнестрельное оружие"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvWeapons_2"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#aaa"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:text="Пистолет M19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btM19"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Пистолет G17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btG17"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Пистолет MPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btMPM"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Пистолет 44 MAG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btMAG"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Пистолет Альберт-01R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btAlbert"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Дробовик M37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btM37"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Дробовик M21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btM21"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Пулемет Р19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btP19"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <TextView
+                android:text="Специальное оружие"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvWeapons_3"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#aaa"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:text="Огнемет"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btFlamer"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Гранатомет"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btLauncher"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

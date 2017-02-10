@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.easylabs.residentevil7guidee.MenuActivity"
+    android:background="@drawable/coinsbackground"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:text="Оружие"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btWeapons"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="btWeaponsMenuClick"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Рюкзаки"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btBackpack"
+                android:layout_below="@+id/btAncientCoins"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="btBackpackClick"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Древние монеты"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btAncientCoins"
+                android:layout_below="@+id/btWeapons"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="btAncientCoinsClick"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Стероиды"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/btBackpack"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/btSteroids"
+                android:onClick="btSteroidsClick"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Ключи"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btKeys"
+                android:layout_below="@+id/btSteroids"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="btKeysClick"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+            <Button
+                android:text="Ремонтные наборы"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btRepairKit"
+                android:onClick="btRepairKitClick"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/oval_red_button"
+                android:textColor="#d6d7d7"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
